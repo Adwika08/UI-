@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <title>Zing | Sign up</title>
+  </head>
+  <body>
+    <div style="margin:auto;width:20%;background-color:#C1F78B;">
+      <h1>Login to Zing HR</h1>
+    </br> </br>
+    <style>
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+</style>
+<body style="text-align:center;">
+</style>
+    <input type="textbox" class="tooltip" placeholder="Enter name "/>
+    </br> </br>
+    <input type="email" class="tooltip" placeholder="Enter email "/>
+    </br> </br>
+    <input type="date" class="tooltip"/>
+    </br> </br>
+    <input type="tel" id="phone" name="phone" class="tooltip" placeholder="9123311905 Enter phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+    <form action="/action_page.php" method="get">
+      <label for="browser">Enter your salary from the list : </label>
+      <input list="browsers" name="browser" id="browser">
+      <datalist id="browsers">
+        <option value="Above 3 lakh ">
+        <option value="Below 3 lakh ">
+        <option value="Other option ">
+      </datalist>
+    </form>
+    <input type="text" class="tooltip" placeholder="Enter company name ">
+    </br> </br></br> </br>
+    <input type="submit" class="tooltip" placeholder="Login">
+      <span class="tooltiptext">  </span>
+    </div>
+  </body>
+</html>
